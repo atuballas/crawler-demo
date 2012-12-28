@@ -1,0 +1,133 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+div.s-form{
+	width:500px;
+	margin:0 auto;
+}
+
+div.div-triptype{
+	float:left;
+	margin:0 15px 0 0;
+	padding:2px;
+	color:#1B75BB;
+}
+
+.cb{
+	clear:both;
+}
+
+div.div-location{
+	background-color:#efefef;
+	padding:4px;
+	border-radius:4px;
+}
+
+div.div-location-label{
+	padding:2px;
+	color:#a1a1a1;
+	font-size:11px;
+}
+
+div.div-date-label{
+	margin:15px 0 0 0;
+}
+
+div.div-location-inputs, div.div-date-inputs, div.div-adults-inputs{
+	float:left;
+}
+
+#input-from-location
+{
+	margin:0 6px 0 0;
+}
+
+#from-location-label{
+	margin:0 165px 0 0;
+}
+
+#from-adult-label{
+	margin: 0 0 0 7px;
+}
+
+#from-children-label{
+	margin: 0 0 0 30px;
+}
+
+#input-from-location, #input-to-location{
+	background:url(../images/location.png) no-repeat 5px #fff;
+}
+
+div.div-location-inputs input{
+	padding:5px 5px 5px 25px;
+	width:213px;
+	border:none;
+	border-radius:2px;
+}
+
+div.div-date-inputs input, select{
+	padding:5px 5px 5px 5px;
+	border:none;
+	border-radius:2px;
+	width:135px;
+}
+
+div.div-date-inputs select{
+	padding:4px;
+	width:90px;
+	margin:0 10px 0 3px;
+}
+
+div.div-adults-inputs select{
+	padding:4px;
+	width:50px;
+	margin:0 10px 0 0px;
+}
+
+
+div.div-date-labels{
+	color:#1B75BB;
+	font-size:12px;
+}
+
+#select-time-arrival{
+	margin-right:0;
+}
+
+#to-date-label{
+	margin:0 0 0 173px;
+}
+
+#input-date-departure, #input-date-arrival{
+	background:url(../images/calendar.png) no-repeat 120px #fff;
+	cursor:pointer;
+}
+
+#nochildren{
+	margin:0 0 0 6px;
+}
+
+#select-settype{
+	width:200px;
+	margin:0 20px 0 10px;
+}
+
+#input-submit{
+	border:none;
+	background-color:#F4792A;
+	color:#fff;
+	padding:4px;
+	border-radius:2px;
+	width:120px;
+}
+
+#input-submit:hover{
+	border:none;
+	background-color:#1B75BB;
+	color:#fff;
+	padding:4px;
+	border-radius:2px;
+	width:120px;
+}
