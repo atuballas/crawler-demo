@@ -5,7 +5,7 @@ body{
 
 div.s-form{
 	width:500px;
-	margin:0 auto;
+	margin:10px auto;
 }
 
 div.div-triptype{
@@ -56,6 +56,10 @@ div.div-location-inputs, div.div-date-inputs, div.div-adults-inputs{
 	margin: 0 0 0 30px;
 }
 
+#from-travelclass-label{
+	margin: 0 0 0 25px;
+}
+
 #input-from-location, #input-to-location{
 	background:url(../images/location.png) no-repeat 5px #fff;
 }
@@ -67,11 +71,25 @@ div.div-location-inputs input{
 	border-radius:2px;
 }
 
+div.div-location-inputs input.inputerror{
+	padding:5px 5px 5px 25px;
+	width:211px;
+	border:1px solid red;
+	border-radius:2px;
+}
+
 div.div-date-inputs input, select{
 	padding:5px 5px 5px 5px;
 	border:none;
 	border-radius:2px;
 	width:135px;
+}
+
+div.div-date-inputs input.inputerror, select.inputerror{
+	padding:5px 5px 5px 5px;
+	border:1px solid red;
+	border-radius:2px;
+	width:133px;
 }
 
 div.div-date-inputs select{
@@ -130,4 +148,67 @@ div.div-date-labels{
 	padding:4px;
 	border-radius:2px;
 	width:120px;
+}
+
+#div-location-suggest-from, #div-location-suggest-to{
+	border:1px solid #a1a1a1;
+	position:absolute;
+	width:241px;
+	background-color:#efefef;
+	display:none;
+}
+
+#div-location-suggest-from ul, #div-location-suggest-to ul{
+	padding:0;
+	height:203px;
+}
+
+#div-location-suggest-from ul li, #div-location-suggest-to ul li{
+	list-style:none;
+	padding:10px;
+	border-bottom:1px solid #ccc;
+}
+
+#div-location-suggest-from ul li a:hover, #div-location-suggest-to ul li a:hover{
+	color:#1B75BB;
+	cursor:pointer;
+}
+
+#form-error{
+	text-align:center;
+	height:20px;
+	margin:20px 0 0 0;
+}
+
+#splash-outer-wrapper{
+	width:720px;
+	text-align:center;
+	margin:0 auto;
+	padding:5px;
+	font-size:15px;
+}
+
+#div-ajax-loader{
+	margin:10px 0 0 0;
+}
+
+#div-adsense{
+	border:1px dashed;
+	width:720px;
+	height:90px;
+	margin:50px 0 0 0;
+}
+
+iframe{
+	border:none;
+	width:0;
+}
+
+#results-outer-wrapper{
+	width:800px;
+	overflow:auto;
+	height:600px;
+	margin:auto;
+	margin:30px auto;
+	border:1px solid #ccc;
 }
